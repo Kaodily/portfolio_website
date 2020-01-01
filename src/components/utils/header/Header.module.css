@@ -1,22 +1,18 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px ;
-    background-color:#968e89;
-    position: sticky;
-    top: 0;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgba(32, 30, 30, 0.773);
+  position: sticky;
+  top: 0;
 }
-.logo{
-font-family: 'Bruno Ace', cursive;
- color: white;
+.logo {
+  font-family: "Bruno Ace", cursive;
+  color: white;
 }
 
-
-.list{
-    list-style: none;
-    display: flex;
-}
-.list_items{
-
+.list {
+  list-style: none;
+  display: flex;
 }

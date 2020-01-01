@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const goBackStyles = {
   fontWeight: "bold",
+  color: "white",
   margin: "20px 30px 0 30px",
 };
 const Back = () => {
