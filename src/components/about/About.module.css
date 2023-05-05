@@ -1,0 +1,38 @@
+.hero_container{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.hero_image{
+    width: 300px;
+}
+.about_heading{
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.about_me{
+    padding: 20px 30px 0 30px;
+    line-height: 35px;
+   
+
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+.projects_button{
+    background-color:white;
+    width: max-content;
+    font-size: 16px;
+    border: 2px solid #968e89;
+    color: #968e89;
+    padding: 14px 50px;
+    margin-top: 20px;
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}

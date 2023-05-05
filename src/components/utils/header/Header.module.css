@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px ;
+    background-color:#968e89;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 40px;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+}
+.list_items{
+
+}
