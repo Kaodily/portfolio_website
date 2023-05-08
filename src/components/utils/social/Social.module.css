@@ -1,0 +1,18 @@
+.social_container{
+   display: flex;
+   margin-top: 30px;
+   margin-left: 3;
+}
+.icon_container{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EDE9;
+    margin-right: 10px;
+    border: none;
+}
+.icon_container:hover{
+    background-color: #968e89;
+}

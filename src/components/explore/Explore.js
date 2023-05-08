@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Explore.module.css'
 import { Link } from 'react-router-dom';
+import Social from '../utils/social/Social';
 
 const Explore = () => {
     const profession = ['Software developer ', 'Technical Writer']
@@ -13,6 +14,7 @@ const Explore = () => {
       <Link to={'/about'}>
       <button className={classes.explore_button}>Explore</button>
       </Link>
+      <Social />
     </div>
   )
 }

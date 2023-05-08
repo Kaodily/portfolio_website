@@ -14,6 +14,7 @@ margin-top: 40px;
     
 }
 .about_me{
+    color: #968e89;
     padding: 20px 30px 0 30px;
     line-height: 35px;
    
@@ -23,16 +24,29 @@ margin-top: 40px;
     display: flex;
     justify-content: center;
 }
-.projects_button{
+.stack_list{
+display: flex;
+justify-content: center;
+gap: 0 20px;
+flex-wrap: wrap;
+}
+.stacks_button{
     background-color:white;
-    width: max-content;
+    width: 140px;
     font-size: 16px;
     border: 2px solid #968e89;
     color: #968e89;
-    padding: 14px 50px;
+    height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
     margin-top: 20px;
     margin: 20px 0 30px 0;
     border-radius: 2px;
     font-weight: 300;
     letter-spacing: 0.1em;
+}
+.stacks_button:hover{
+background-color: #968e89;
+color: white;
 }
