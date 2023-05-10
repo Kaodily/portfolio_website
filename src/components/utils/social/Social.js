@@ -7,13 +7,13 @@ const Social = () => {
   return (
     <div className={classes.social_container}>
      <a href='https://www.linkedin.com/in/chika-isizoh' target='_blank' rel="noreferrer">
-     <button className={classes.icon_container}><ImLinkedin2/></button>
+     <button className={classes.icon_container}><ImLinkedin2  color='black' fontSize='15px'/></button>
      </a>
           <a href='https://github.com/Kaodily' target='_blank' rel="noreferrer">
-       <button className={classes.icon_container}>< ImGithub/></button>
+       <button className={classes.icon_container}>< ImGithub color='black' fontSize='15px'/></button>
        </a>
-            <a href='https://twitter.com/ka_odily' target='_blank' rel="noreferrer"><button className={classes.icon_container}><ImTwitter/></button> </a>
-           <a href='https://drive.google.com/drive/my-drive?ths=true' target='_blank' rel="noreferrer"> <button className={classes.icon_container}><ImArrowUpRight2/></button> </a>
+            <a href='https://twitter.com/ka_odily' target='_blank' rel="noreferrer"><button className={classes.icon_container}><ImTwitter color='black'  fontSize='15px'/></button> </a>
+           <a href='https://drive.google.com/drive/my-drive?ths=true' target='_blank' rel="noreferrer"> <button className={classes.icon_container}><ImArrowUpRight2 color='black'  fontSize='15px'/></button> </a>
     </div>
   )
 }
