@@ -3,7 +3,26 @@
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: "Open Sans", sans-serif;
-  background-color: white;
+
+.dark {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(153, 154, 155, 0.4),
+      rgba(124, 122, 124, 0.7)
+    ),
+    url(".././src/components/assets/profile-dark.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.light {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(153, 154, 155, 0.4),
+      rgba(124, 122, 124, 0.7)
+    ),
+    url(".././src/components/assets/profile.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

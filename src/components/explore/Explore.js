@@ -1,20 +1,37 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./Explore.module.css";
 import { Link } from "react-router-dom";
-import { MdOutlineLightMode } from "react-icons/md";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
+
 import Links from "../utils/links/Links";
+import { Context } from "../AppContext";
 
 const Explore = () => {
   const profession = ["Software developer ", "Technical Writer"];
+  const { mode, setMode } = useContext(Context);
+  // console.log(mode);
+  const background = mode ? "light" : "dark";
+  const handleClick = () => {
+    setMode((prev) => !prev);
+  };
   return (
     <>
-      <div className={classes.container}>
+      <div className={`${background} ${classes.container}`}>
         <div className={classes.header}>
           <Link to={"/"} style={{ textDecoration: "none" }}>
             <h3 className={classes.logo}>Kaodili</h3>{" "}
           </Link>
+          {/* {mode ? <p>hello</p> : <p>hi</p>} */}
           <div>
-            <MdOutlineLightMode color="white" fontSize="20px" />
+            {mode ? (
+              <div onClick={handleClick}>
+                <MdOutlineLightMode color="white" />
+              </div>
+            ) : (
+              <div onClick={handleClick}>
+                <MdOutlineDarkMode color="white" fontSize="20px" />
+              </div>
+            )}
           </div>
         </div>
         <div className={classes.info}>
