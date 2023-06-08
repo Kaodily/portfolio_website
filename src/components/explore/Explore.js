@@ -9,7 +9,7 @@ import { Context } from "../AppContext";
 const Explore = () => {
   const profession = ["Software developer ", "Technical Writer"];
   const { mode, setMode } = useContext(Context);
-  // console.log(mode);
+
   const background = mode ? "light" : "dark";
   const handleClick = () => {
     setMode((prev) => !prev);
@@ -21,7 +21,6 @@ const Explore = () => {
           <Link to={"/"} style={{ textDecoration: "none" }}>
             <h3 className={classes.logo}>Kaodili</h3>{" "}
           </Link>
-          {/* {mode ? <p>hello</p> : <p>hi</p>} */}
           <div>
             {mode ? (
               <div onClick={handleClick}>
